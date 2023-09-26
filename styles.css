@@ -66,7 +66,7 @@ span::after{
     height: 100%;
     border-left: 4px solid rgb(255, 255, 255, .75);
     /* animation: ; */
-    animation: typing 3s steps(12) infinite,
+    animation: typing 4s steps(12) infinite,
                blinkTextCursor 500ms steps(12) infinite normal;
 }
 
@@ -79,7 +79,7 @@ span::after{
 
   @keyframes blinkTextCursor{
     from{
-        border-left-color: rgba(255,255,255, .75);
+        border-left-color: rgba(255, 255,255, .75);
     }
     to{
         border-left-color: transparent;
